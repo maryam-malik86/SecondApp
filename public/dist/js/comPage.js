@@ -98,7 +98,7 @@ $(document).ready(function() {
                     // Reload comments after adding a new comment
                     $('.comment-icon-trigger[data-post-id="' + postId + '"]').trigger('click');
                 } else {
-                    alert('Failed to add comment.');
+                    alert('Important Note: Failed to add comment');
                 }
             },
             error: function(xhr, status, error) {
