@@ -1,0 +1,84 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+
+.post-card {
+    background-color: #ffffff; /* White background for post card */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transition: box-shadow 0.3s ease;
+}
+
+.post-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #007bff; /* Add a border color */
+    margin-right: 10px;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333; /* Darker color for better readability */
+}
+
+.post-body {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 15px;
+    border-radius: 5px;
+    color: #000;
+}
+
+.post-body h4 {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff; /* Blue color for title */
+}
+
+.post-body p {
+    margin: 10px 0 0;
+    font-size: 16px;
+}
+
+.post-footer {
+    margin-top: 15px;
+    text-align: right;
+}
+
+.comment {
+    background-color: #f8f9fa; /* Light gray background for comments */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow to comments */
+}
+
+.comment-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.comment-body p {
+    margin: 0;
+}
+
+.comment-icon {
+    width: 24px;
+    height: 24px;
+}

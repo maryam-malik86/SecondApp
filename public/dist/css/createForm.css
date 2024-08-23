@@ -1,0 +1,57 @@
+
+    .fcontainer {
+
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: flex-start; /* Align items to the top */
+    min-height: 100vh; /* Full viewport height */
+    padding-top: 20px; /* Top margin */
+    width: 80%;
+    max-width: 600px; /* Limit max width */
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+}
+
+#fform {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 50%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+#fbth {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px; /* Spacing above the button */
+    display: block; /* Ensure button is centered within the form */
+    width: 100%; /* Full width of the form */
+}
+
+#fbth:hover {
+    background-color: #0056b3;
+}
+
+
